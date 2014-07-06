@@ -28,6 +28,7 @@ int main () {
     input_file.close();
   }
   else cout << "Unable to open input file";
-  cin >> line;
+//  cout << "Type a letter then hit enter to quit"
+//  cin >> line;
   return 0;
 }
