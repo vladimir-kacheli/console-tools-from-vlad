@@ -8,7 +8,7 @@ int main () {
   if (output_file.is_open())
   {
   }
-  else cout << "Unable to open file";
+  else cout << "Unable to open output file";
   string line, line1;
   ifstream input_file ("input.txt");
   if (input_file.is_open())
@@ -27,6 +27,7 @@ int main () {
     output_file.close();
     input_file.close();
   }
+  else cout << "Unable to open input file";
   cin >> line;
   return 0;
 }
